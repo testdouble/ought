@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo "Here's how success looks and how fast it is"
+time ./node_modules/.bin/teenytest test.js#pass
+
+echo "Here's how failure looks and how fast it is"
+time ./node_modules/.bin/teenytest test.js#fail
+last_exit=$?
+if [[ $last_exit = 0 ]]; then
+  echo "Wups it didn't fail as expected"
+  exit 1
+else
+  exit 0
+fi
+

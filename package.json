@@ -1,0 +1,27 @@
+{
+  "name": "ought",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --fix && bin/test"
+  },
+  "keywords": [
+    "assert",
+    "diff",
+    "spiffy"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-styles": "^3.2.1",
+    "chalk": "^2.4.2",
+    "concordance": "^4.0.0",
+    "lodash.clonedeepwith": "^4.5.0",
+    "strip-ansi": "^5.0.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "teenytest": "^5.1.1"
+  }
+}
