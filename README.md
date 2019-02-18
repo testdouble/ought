@@ -6,6 +6,10 @@ pleasant diffing output from the [ava](https://github.com/avajs/ava) test
 runner (which is actually powered by
 [concordance](https://github.com/concordancejs/concordance)).
 
+To avoid adding unnecessary overhead to your tests, ought goes out of its way to
+not `require` any of its diffing and printing dependencies unless one of your
+assertions has actually failed.
+
 ## Usage
 
 Install it:
