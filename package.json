@@ -1,7 +1,6 @@
 {
   "name": "ought",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
   "main": "index.js",
   "scripts": {
     "test": "standard --fix && bin/test"
@@ -21,5 +20,17 @@
   "devDependencies": {
     "standard": "^12.0.1",
     "teenytest": "^5.1.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testdouble/ought.git"
+  },
+  "bugs": {
+    "url": "https://github.com/testdouble/ought/issues"
+  },
+  "homepage": "https://github.com/testdouble/ought#readme",
+  "description": ""
 }
