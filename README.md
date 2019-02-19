@@ -39,7 +39,7 @@ The other method is `ought.notEqual`.
   [assert.deepStrictEqual](https://nodejs.org/api/assert.html#assert_assert_deepstrictequal_actual_expected_message)
 * `ought.notEqual(actual, expected, message)` - This one just calls [assert.notDeepStrictEqual](https://nodejs.org/api/assert.html#assert_assert_notdeepstrictequal_actual_expected_message)
 
-We would've kept the original assertion names, but I hate typing.
+We would've kept the original assertion names, but we hate typing.
 
 ## Output
 
