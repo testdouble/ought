@@ -2,6 +2,7 @@
   "name": "ought",
   "version": "0.0.4",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "standard --fix && bin/test"
   },
