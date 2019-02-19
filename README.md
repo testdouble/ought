@@ -34,12 +34,24 @@ The other method is `ought.notEqual`.
 
 ## API
 
+### Assertions
+
 * `ought.equal(actual, expected, message)` - Other than the pretty failure
   message, behavior should exactly match
   [assert.deepStrictEqual](https://nodejs.org/api/assert.html#assert_assert_deepstrictequal_actual_expected_message)
 * `ought.notEqual(actual, expected, message)` - This one just calls [assert.notDeepStrictEqual](https://nodejs.org/api/assert.html#assert_assert_notdeepstrictequal_actual_expected_message)
 
 We would've kept the original assertion names, but we hate typing.
+
+### Configuration
+
+You can configure ought with `ought.config`. Defaults follow:
+
+```js
+ought.config({
+  color: true
+})
+```
 
 ## Output
 
