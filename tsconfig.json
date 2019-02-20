@@ -3,10 +3,7 @@
     "module": "commonjs",
     "target": "es5",
     "lib": ["es5"],
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitAny": true,
-    "noImplicitThis":, true,
-    "strictNullChecks": true
+    "strict": true
   },
   "exclude": [
     "node_modules"
