@@ -6,4 +6,8 @@ export function equal<T>(actual: T, expected: T, msg?: string): void;
 
 export function notEqual<T>(actual: T, expected: T, msg?: string): void;
 
-export function config(userConfig: object): object;
+interface UserConfig {
+  color: boolean;
+}
+
+export function config(userConfig: UserConfig): UserConfig;
