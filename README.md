@@ -62,3 +62,6 @@ failing test looks like this:
 
 <img width="604" alt="screen shot 2019-02-18 at 6 51 21 pm" src="https://user-images.githubusercontent.com/79303/52981528-3c452000-33ae-11e9-92eb-893e3465a9c6.png">
 
+## Code of Conduct
+
+This project follows Test Double's [code of conduct](https://testdouble.com/code-of-conduct) for all community interactions, including (but not limited to) one-on-one communications, public posts/comments, code reviews, pull requests, and GitHub issues. If violations occur, Test Double will take any action they deem appropriate for the infraction, up to and including blocking a user from the organization's repositories.
