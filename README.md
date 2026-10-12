@@ -1,5 +1,13 @@
 # ought
 
+## ⛔ DEPRECATED ⛔
+
+ought is deprecated and unmaintained.
+
+We have no plans to hand off the package or resurrect it, but you are of course welcome to fork it.
+
+------------
+
 This module combines your underlying Node.js runtime's
 [assert](https://nodejs.org/api/assert.html) module's assertions with the
 pleasant diffing output from the [ava](https://github.com/avajs/ava) test
